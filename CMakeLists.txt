@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(untitled10 C CXX)
+project(example_lwip_linux_unix C CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 
