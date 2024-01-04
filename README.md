@@ -12,3 +12,7 @@
     cmake --build .
     ```
 The binary `example_lwip_linux_unix` will now be in the `build/example_lwip_linux_unix` folder
+
+# Was this example helpful?
+
+If you like this example and want to support me, you can do so by buying me a coffee, pizza or other developer essentials by clicking this link: [Support me with PayPal](https://www.paypal.com/donate/?hosted_button_id=TGDGATFR63N3G)
