@@ -5,7 +5,9 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_subdirectory(external/lwip/)
 
+# create the "ported" version of the lwip library, suited for our needs (running on linux / unix)
 add_library(lwip_port)
+add_library(example_lwip_linux_unix::lwip_port ALIAS lwip_port) # alias target so cmake complains when we link to it and it does not exist
 target_link_libraries(lwip_port PRIVATE
         devzeb::lwip_core
         devzeb::lwip_unix_core
